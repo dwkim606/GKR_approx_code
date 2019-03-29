@@ -10,4 +10,4 @@ To change parameter(Prime, E), one need to calculate coefficient of polynomials 
 g++ test_name.cpp -o test -lm -lntl -gmp -pthread -O3 -std=c++11 \
 ./test (number)
 
-in (number), input log (number of rounding gates or column length of matrix).
+In (number), input log (number of rounding gates or column length of matrix).
