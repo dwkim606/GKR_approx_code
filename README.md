@@ -2,16 +2,18 @@
 This in an experimental code for GKR on Approximate Computation.
 
 ## Requirements
-One needs NTL (https://www.shoup.net/ntl/) & GMP (https://gmplib.org/) library. \
+Needs NTL (https://www.shoup.net/ntl/) & GMP (https://gmplib.org/) library. \
 Installation Guide (GMP)
 1. Download gmp-6.2.1.tar.lz and ntl-11.5.1.tar.gz files from the websites.
-2. Unpack with tar --lzip -xvf gmp-6.2.1.tar.lz
-3. cd ./gmp-6.1.2
+2. Unpack with the command: tar --lzip -xvf gmp-6.2.1.tar.lz
+3. Build and Install 
+```console
+cd ./gmp-6.1.2
 ./configure
 make
 make check
 sudo make install
-
+'''
 
 
 
