@@ -2,7 +2,7 @@
 This in an experimental code for GKR on Approximate Computation.
 
 ## Requirements
-One needs NTL & GMP library. (https://www.shoup.net/ntl/) \
+One needs NTL (https://www.shoup.net/ntl/) & GMP (https://gmplib.org/) library. \
 We included txt file for polynomial (Lowest Digit Removal polynomial) used in protocol with given parameter. \
 To change parameter(Prime, E), one needs to calculate coefficient of polynomials commenting in "genLowDigitPoly(i);" in main.			
 
